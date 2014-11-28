@@ -1,0 +1,206 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    width: 100%;
+    background-color: #000;
+}
+
+.kiwi {
+    width: 1200px;
+/*    background-color: green;*/
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    z-index: 1;
+    margin-top: -300px;
+    margin-left: -600px;
+    overflow: hidden;
+    
+}
+
+.kiwi1 {
+    width: 3000px;
+    height: 2000px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-left: -1500px;
+    margin-top: -1000px;
+    z-index: 1112;
+
+    
+    background: -webkit-radial-gradient(circle 600px,transparent, rgba(0,0,0,0.97), rgba(0,0,0,0.97),rgba(0,0,0,0.97), rgba(0,0,0,0.97)); 
+    background: -o-radial-gradient(circle 600px,transparent, rgba(0,0,0,0.97), rgba(0,0,0,0.97),rgba(0,0,0,0.97), rgba(0,0,0,0.97)); 
+    background: -moz-radial-gradient(circle 600px,transparent, rgba(0,0,0,0.97), rgba(0,0,0,0.97),rgba(0,0,0,0.97), rgba(0,0,0,0.97)); 
+    background: radial-gradient(circle 600px,transparent, rgba(0,0,0,0.97), rgba(0,0,0,0.97),rgba(0,0,0,0.97), rgba(0,0,0,0.97)); 
+}
+.kiwi > img {
+    position: relative;
+    border: solid 8px #00FF48;
+    border-radius: 10px;
+    display: block;
+}
+.kiwi > img:nth-child(1){
+    left:20px;
+    top:50px;
+    z-index: 10;
+     -webkit-transform:rotate(-15deg);
+     -moz-transform:rotate(-15deg);
+     -o-transform:rotate(-15deg);
+     -ms-transform:rotate(-15deg);
+     transform:rotate(-15deg);
+}
+.kiwi > img:nth-child(2){
+    left:100px;
+    top:10px;
+    z-index: 2;
+    -webkit-transform:rotate(30deg);
+    -moz-transform:rotate(30deg);
+    -o-transform:rotate(30deg);
+    -ms-transform:rotate(30deg);
+    transform:rotate(30deg);
+}
+.kiwi > img:nth-child(3){
+    left:800px;
+    top:-550px;
+    z-index: 3;
+    -webkit-transform:rotate(10deg);
+    -moz-transform:rotate(10deg);
+    -o-transform:rotate(10deg);
+    -ms-transform:rotate(10deg);
+    transform:rotate(10deg);
+    opacity:1;
+}
+.kiwi > img:nth-child(4){
+    left:280px;
+    top:-1100px;
+    z-index: 4;
+}
+.kiwi > img:nth-child(5){
+    left:500px;
+    top:-1180px;
+    z-index: 6;
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -o-transform:rotate(0deg);
+    -ms-transform:rotate(0deg);
+    transform:rotate(0deg);
+}
+.kiwi > img:nth-child(6){
+    left:550px;
+    top:-1580px;
+    z-index: 7;
+    -webkit-transform:rotate(-10deg);
+    -moz-transform:rotate(-10deg);
+    -o-transform:rotate(-10deg);
+    -ms-transform:rotate(-10deg);
+    transform:rotate(-10deg);
+}
+.kiwi > img:nth-child(7){
+    left:500px;
+    top:-1375px;
+    z-index: 5;
+    -webkit-transform:rotate(-20deg);
+    -moz-transform:rotate(-20deg);
+    -o-transform:rotate(-20deg);
+    -ms-transform:rotate(-20deg);
+    transform:rotate(-20deg);
+}
+.kiwi > img:nth-child(8){
+    left:850px;
+    top:-1700px;
+    z-index: 5;
+    -webkit-transform:rotate(-15deg);
+    -moz-transform:rotate(-15deg);
+    -o-transform:rotate(-15deg);
+    -ms-transform:rotate(-15deg);
+    transform:rotate(-15deg);
+}
+.chirp1 {
+    width: 100px;
+    height: 100px;
+    color: #FF530D;
+    position:relative;
+    top:1000px;
+    left:1650px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow:2px 2px #FFF;
+}
+.chirp1 > span {
+    font-size: 16px;
+    color:#ccc;
+    cursor: pointer;
+    -webkit-transition: color 1s linear;
+    -moz-transition: color 1s linear;
+    -o-transition: color 1s linear;
+    -ms-transition: color 1s linear;
+    transition: color 1s linear;
+    text-shadow:1px 1px #FFF;
+    
+}
+.chirp1 > a {
+    font-size: 28px;
+    color:#44A604;
+    cursor: pointer;
+    display: block;
+    -webkit-transition: color 1s linear;
+    -moz-transition: color 1s linear;
+    -o-transition: color 1s linear;
+    -ms-transition: color 1s linear;
+    transition: color 1s linear;
+    text-shadow:1px 1px #FFF;
+}
+.chirp1 > span:hover,.chirp1 > a:hover {
+    color: #213C97;
+}
+
+@media only screen and (max-width:1200px) {
+    .kiwi{
+    -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+    }
+}
+@media only screen and (max-width:1000px) {
+    .kiwi{
+    -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8)
+        -o-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+    }
+}
+@media only screen and (max-width:800px) {
+    .kiwi{
+    -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7)
+        -o-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .kiwi{
+    -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5)
+        -o-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+    }
+    .chirp1 > a {
+    font-size: 38px;
+    }
+}
+@media only screen and (max-width:500px) {
+    .kiwi{
+    -webkit-transform: scale(0.3);
+        -moz-transform: scale(0.3)
+        -o-transform: scale(0.3);
+        -ms-transform: scale(0.3);
+    }
+}
+
+
