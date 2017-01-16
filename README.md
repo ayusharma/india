@@ -3,7 +3,7 @@
 I tried to express the feeling of petrotrism on the Independance day of India.
 A tribute to freedom fighters of India who lost their life for the independence of our nation.
 
-URL: http://ayusharma.in/india
+URL: https://serene-island-28004.herokuapp.com/
 
 Technology Used:
 
