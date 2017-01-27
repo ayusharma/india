@@ -3,7 +3,7 @@
 I tried to express the feeling of petrotrism on the Independance day of India.
 A tribute to freedom fighters of India who lost their life for the independence of our nation.
 
-URL: https://serene-island-28004.herokuapp.com/
+URL: http://ayusharma.github.io/india/
 
 Technology Used:
 
@@ -11,8 +11,6 @@ Technology Used:
 HTML5
 CSS3
 jQuery
-GNU Linux
-Digital Ocean as VPS
 
 
 For further queries do not hesitate to contact me.
